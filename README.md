@@ -12,7 +12,7 @@
 [travis-url]: https://travis-ci.org/xudafeng/selenium-atoms
 [coveralls-image]: https://img.shields.io/coveralls/xudafeng/selenium-atoms.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/xudafeng/selenium-atoms?branch=master
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=_4-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/selenium-atoms.svg?style=flat-square
 [download-url]: https://npmjs.org/package/selenium-atoms
