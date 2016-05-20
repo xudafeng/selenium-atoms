@@ -1,6 +1,6 @@
 {
   "name": "selenium-atoms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "selenium-atoms",
   "keywords": ["selenium"],
   "main": "index.js",
