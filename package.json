@@ -1,22 +1,23 @@
 {
   "name": "selenium-atoms",
-  "version": "1.0.1",
-  "description": "selenium-atoms",
-  "keywords": ["selenium"],
+  "version": "1.0.2",
+  "description": "selenium atoms",
+  "keywords": [
+    "selenium"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/selenium-atoms.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "co-mocha": "*",
-    "mocha": "*",
-    "should": "*",
-    "jshint": "*",
     "istanbul": "*",
-    "pre-commit": "1.1.1"
+    "jshint": "^2.9.3",
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*"
   },
   "scripts": {
     "test": "make test",
