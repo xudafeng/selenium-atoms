@@ -29,8 +29,7 @@ $ npm i selenium-atoms --save
 
 [SeleniumHQ/selenium/atoms](https://github.com/SeleniumHQ/selenium/tree/master/javascript/atoms)
 
-
-```shell
+``` bash
 # get selenium project
 $ git clone https://github.com/SeleniumHQ/selenium.git --depth=1 --branch=selenium-2.52.0 --single-branch
 # run build
