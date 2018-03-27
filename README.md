@@ -12,7 +12,7 @@
 [travis-url]: https://travis-ci.org/xudafeng/selenium-atoms
 [coveralls-image]: https://img.shields.io/coveralls/xudafeng/selenium-atoms.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/xudafeng/selenium-atoms?branch=master
-[node-image]: https://img.shields.io/badge/node.js-%3E=_4-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/selenium-atoms.svg?style=flat-square
 [download-url]: https://npmjs.org/package/selenium-atoms
@@ -21,23 +21,33 @@
 
 ## Installment
 
-```shell
+```bash
 $ npm i selenium-atoms --save
 ```
 
 ## Build
 
-[SeleniumHQ/selenium/atoms](https://github.com/SeleniumHQ/selenium/tree/master/javascript/atoms)
+[SeleniumHQ/selenium/atoms](//github.com/SeleniumHQ/selenium/tree/master/javascript/atoms)
 
 ``` bash
 # get selenium project
 $ git clone https://github.com/SeleniumHQ/selenium.git --depth=1 --branch=selenium-2.52.0 --single-branch
 # run build
-make build selenium=path/to/selenium
+./build.sh selenium=path/to/selenium
 ```
+
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars1.githubusercontent.com/u/1044425?v=4" width="100px;"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>
+| :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Tue Mar 27 2018 22:58:45 GMT+0800`.
+
+<!-- GITCONTRIBUTOR_END -->
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf

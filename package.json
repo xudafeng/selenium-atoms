@@ -13,19 +13,18 @@
   "dependencies": {},
   "devDependencies": {
     "co-mocha": "*",
-    "istanbul": "*",
     "jshint": "^2.9.3",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "nyc": "^11.6.0",
+    "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "jshint .",
+    "ci": "npm run lint && npm run test"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
-  "homepage": "https://github.com/xudafeng/selenium-atoms",
   "license": "MIT"
 }

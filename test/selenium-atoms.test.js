@@ -1,9 +1,10 @@
 'use strict';
 
-var Atoms = require('..');
+const Atoms = require('..');
+const assert = require('assert');
 
 describe('test', function() {
   it('should be ok', function() {
-    Atoms.getByName('click').should.be.String();
+    assert.ok(Atoms.getByName('click'));
   });
 });
