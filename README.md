@@ -44,7 +44,7 @@ $ git clone https://github.com/SeleniumHQ/selenium.git --depth=1 --branch=seleni
 | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Tue Mar 27 2018 22:58:45 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Thu May 24 2018 14:32:10 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
