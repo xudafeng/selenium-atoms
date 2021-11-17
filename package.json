@@ -6,6 +6,10 @@
     "selenium"
   ],
   "main": "index.js",
+  "files": [
+    "atoms/**/*.js",
+    "lib/**/*.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/selenium-atoms.git"
@@ -13,7 +17,7 @@
   "dependencies": {},
   "devDependencies": {
     "co-mocha": "*",
-    "git-contributor": "^1.0.8",
+    "git-contributor": "1",
     "jshint": "^2.9.3",
     "mocha": "*",
     "nyc": "^11.6.0",
