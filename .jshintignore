@@ -1,6 +1,4 @@
-.git/
 node_modules/
 coverage/
-build/
 atoms/
 dist/
